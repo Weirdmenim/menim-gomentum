@@ -1,0 +1,33 @@
+{
+  "name": "gomentum-website",
+  "version": "3.0.0",
+  "private": true,
+  "description": "A real Next.js App Router website for Gomentum with SEO resources, evidence pages, accessibility structure, and clean Vercel deployment.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "validate": "node scripts/validate.js"
+  },
+  "keywords": [
+    "gomentum",
+    "task initiation",
+    "task paralysis",
+    "ADHD task initiation",
+    "SEO",
+    "conversion"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "next": "16.2.7",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "^5.7.0"
+  }
+}
